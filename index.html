@@ -5,67 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muneeza Amber Ejaz | UI/UX Designer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="logo">MAE.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
     <header class="hero">
         <div class="hero-content">
-            <h1>Muneeza Amber Ejaz ✨</h1>
-            <h2>UI/UX Designer | Bridging the gap between Design & Code</h2>
-            <p>I don’t just make things look pretty, I design interfaces that actually make sense for developers to build and for users to navigate.</p>
-            <div class="contact-info">
-                <p>📍 Punjab, Pakistan | 🎓 Software Engineering Undergrad @ FJWU</p>
+            <h1>Muneeza Amber Ejaz</h1>
+            <h2>UI/UX Designer</h2>
+            <p>Bridging the gap between technical logic and human-centric design. I craft interfaces that make sense for developers to build and for users to navigate.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/muneeza-amber-ejaz" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/uiux.muneeza/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
             </div>
-            <a href="https://linkedin.com/in/muneeza-amber-ejaz" target="_blank" class="btn">Let's Connect</a>
         </div>
     </header>
 
     <main class="container">
-        <section class="section">
-            <h2>🎓 Education</h2>
+        <section id="about" class="section">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <div class="card">
+                <p>As a UI/UX Designer with a foundation in Software Engineering from Fatima Jinnah Women University, I don't just make things look visually appealing; I solve complex problems through design. I have experience collaborating with engineering teams and project coordinators to translate complex requirements into intuitive digital workflows. My background as a Resin Artist has also fine-tuned my eye for visual consistency and aesthetics.</p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
             <div class="card">
                 <h3>BS Computer Software Engineering</h3>
-                <p>Fatima Jinnah Women University, Rawalpindi (Sep 2024 – Sep 2028)</p>
+                <p>Fatima Jinnah Women University, Rawalpindi</p>
+                <p class="date">Sep 2024 – Sep 2028</p>
             </div>
         </section>
 
-        <section class="section">
-            <h2>🛠️ Core Skills</h2>
+        <section id="skills" class="section">
+            <h2><i class="fas fa-tools"></i> Skills</h2>
             <div class="skills-container">
-                <span class="skill-tag">Figma</span>
-                <span class="skill-tag">UI/UX Design</span>
-                <span class="skill-tag">Prototyping</span>
-                <span class="skill-tag">Wireframing</span>
-                <span class="skill-tag">Canva & Graphic Design</span>
-                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+                <span class="skill-tag"><i class="fas fa-pen-nib"></i> UI/UX Design</span>
+                <span class="skill-tag"><i class="fas fa-mobile-alt"></i> Prototyping</span>
+                <span class="skill-tag"><i class="fas fa-border-all"></i> Wireframing</span>
+                <span class="skill-tag"><i class="fas fa-palette"></i> Graphic Design</span>
+                <span class="skill-tag"><i class="fas fa-lightbulb"></i> Problem Solving</span>
             </div>
         </section>
 
-        <section class="section">
-            <h2>🚀 UI/UX Projects (Figma)</h2>
+        <section id="projects" class="section">
+            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
             
             <div class="card project">
-                <h3>🌙 Noomi Moon</h3>
-                <p><strong>Role:</strong> UI/UX Designer (Figma)</p>
-                <p>Designed an intuitive multi-step creation wizard for an AI-powered personalized children's storybook platform. Crafted user flows for age selection, story themes, character personalization, and a dashboard for managing physical book orders.</p>
+                <h3>Noomi Moon</h3>
+                <p class="role">UI/UX Designer</p>
+                <p>Designed a highly immersive, personalized children's storybook landing page and platform. Created an intuitive multi-step creation wizard for age selection, themes, and character personalization, alongside a dashboard for managing physical book orders.</p>
             </div>
 
             <div class="card project">
-                <h3>📈 XaviBoost</h3>
-                <p><strong>Role:</strong> UI/UX Designer (Figma)</p>
-                <p>Designed a unified dashboard for an AI-powered content publishing and ad management platform. Focused on simplifying complex ad setups, real-time live previews for multi-platform posting (Meta, TikTok), and clear analytics visualization.</p>
+                <h3>XaviBoost</h3>
+                <p class="role">UI/UX Designer</p>
+                <p>Designed a unified, AI-powered content publishing and ad management dashboard. Simplified complex ad setups and incorporated real-time live previews for multi-platform posting (Meta, TikTok) with clear analytics visualization.</p>
             </div>
 
             <div class="card project">
-                <h3>🚚 CargoConnect</h3>
-                <p><strong>Role:</strong> UI/UX Designer (Figma)</p>
-                <p>Prototyped a B2B logistics marketplace connecting freight companies with freelance truck drivers. Designed role-based dashboards, intelligent load-matching interfaces, geospatial map integration screens, and application workflows.</p>
+                <h3>CargoConnect</h3>
+                <p class="role">UI/UX Designer</p>
+                <p>Prototyped a B2B logistics marketplace connecting freight companies with freelance truck drivers. Crafted role-based dashboards, intelligent load-matching interfaces, geospatial map integration screens, and application workflows.</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Crafted with 🩵 by Muneeza Amber Ejaz | Cloud Computing Assignment 01</p>
+        <p>&copy; 2026 Muneeza Amber Ejaz. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
